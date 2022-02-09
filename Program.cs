@@ -11,7 +11,7 @@ namespace KedvencAllatom
         static void Main(string[] args)
         {
             string Allat = Console.ReadLine();
-            Console.WriteLine();
+            Console.WriteLine("A kedvenc állatod:" + Allat);
         }
     }
 }
