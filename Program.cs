@@ -10,8 +10,9 @@ namespace KedvencAllatom
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Mi a kedvenc állatod?");
             string Allat = Console.ReadLine();
-            Console.WriteLine("A kedvenc állatod:" + Allat);
+            Console.WriteLine("A kedvenc állatod: " + Allat);
         }
     }
 }
