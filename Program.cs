@@ -15,6 +15,10 @@ namespace KedvencAllatom
             string enyem = "majom";
             Console.WriteLine("A kedvenc állatod: " + Allat);
             Console.WriteLine("Az én kedvenc állatom pedig a " + enyem);
+            if (Allat == "majom")
+	        {
+                Console.WriteLine("Szóval elég menő, hogy ugyanaz a kedvenc állatunk");
+	        }
         }
     }
 }
